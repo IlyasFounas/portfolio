@@ -4,30 +4,32 @@ import Crypto from './Crypto.vue'
 
 <template>
     <div class="d-flex justify-content-center"> <!--align-items-center-->
-
-        <div>
-            <p class="text-white title"><strong>Ilyâs Founas</strong></p>
-            <p class="text-white title_bis">Junior Backend Developer</p>
-            <p class="text-white-50">
-                I build applications with passion and precision !
-            </p>
-            <div class="text-white mt-16">
-                <div class="section-title">
-                    <span class="line"></span>
-                    <span class="title ul"><a href="#about">ABOUT</a></span>
-                </div>
-                <div class="section-title">
-                    <span class="line"></span>
-                    <span class="title ul"><a href="#experience">EXPERIENCE</a></span>
-                </div>
-                <div class="section-title">
-                    <span class="line"></span>
-                    <span class="title ul"><a href="#">PROJECTS</a></span>
+        <div id="parent_fixed">
+            <div id="div_fixed">
+                <p class="text-white title"><strong>Ilyâs Founas</strong></p>
+                <p class="text-white title_bis">Junior Backend Developer</p>
+                <p class="text-white-50">
+                    I build applications with passion and precision !
+                </p>
+                <div class="text-white mt-16">
+                    <div class="section-title">
+                        <span class="line"></span>
+                        <span class="title ul"><a href="#">ABOUT</a></span>
+                    </div>
+                    <div class="section-title">
+                        <span class="line"></span>
+                        <span class="title ul"><a href="#experience">EXPERIENCE</a></span>
+                    </div>
+                    <div class="section-title">
+                        <span class="line"></span>
+                        <span class="title ul"><a href="#">PROJECTS</a></span>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="about">
-            <div class="text-white-50 para">
+
+        <div class="div_global">
+            <div class="text-white-50 para" id="about">
                 <p>
                     Back in university, while studying <strong class="text-white">Computer Science at Valence in the Drôme</strong>, I found myself drawn 
                     <br>deeper into the world of web development. What started as small coding experiments quickly
@@ -53,6 +55,8 @@ import Crypto from './Crypto.vue'
                     <br>improving my skills in <strong class="text-white">Vue.js</strong> or diving into game development with <strong class="text-white">Godot</strong>.
                 </p>
             </div>
+            <Crypto />
+            <Crypto />
             <Crypto />
         </div>
     </div>

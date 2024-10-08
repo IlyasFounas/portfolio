@@ -74,3 +74,19 @@ onMounted(() => {
   </main>
 
 </template>
+
+<style scoped>
+
+main
+{
+  padding: 5%;
+}
+
+main:hover
+{
+  background-color: #c2b3d8;
+  border-radius: 20px;
+  opacity: 0.33;
+}
+
+</style>

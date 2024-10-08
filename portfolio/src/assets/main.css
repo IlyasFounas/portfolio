@@ -15,6 +15,16 @@ a
   margin-left: 100px;
 }
 
+#parent_fixed
+{
+  width: 350px;
+}
+
+#div_fixed
+{
+  position: fixed;
+}
+
 .title
 {
   font-size: 50px !important;
@@ -69,4 +79,9 @@ a
 .mt-16
 {
   margin-top: 4rem;
+}
+
+.div_global
+{
+  height: 500px;
 }
