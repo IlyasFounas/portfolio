@@ -1,6 +1,13 @@
-//import './assets/main.css'
 
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
 
-createApp(App).mount('#app')
+// Import Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Import le thème Bootswatch Morph
+import 'bootswatch/dist/vapor/bootstrap.min.css';
+
+import './assets/main.css';
+
+createApp(App).mount('#app');

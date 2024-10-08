@@ -1,35 +1,72 @@
-@import './base.css';
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+main
+{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
-a,
-.green {
+a
+{
   text-decoration: none;
-  color: rgb(189, 107, 0);
-  transition: 0.4s;
-  padding: 3px;
+  color: #a0a0a0;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+#solana
+{
+  margin-left: 100px;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+.title
+{
+  font-size: 50px !important;
+  margin-bottom: initial;
+}
+.title_bis
+{
+  font-size: 20px !important;
+}
+.para
+{
+  margin-left: 100px;
+  font-size: 17px !important;
+}
+.ul
+{
+  font-size: 13px !important;
+  font-weight: bold;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.section-title {
+  display: flex;
+  align-items: center;
+  color: #a0a0a0;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+.line {
+  width: 40px;
+  height: 1px;
+  background-color: #a0a0a0;
+  margin-right: 10px;
+  transition: width 0.5s ease;
+}
+
+.title {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.section-title:hover a {
+  color: white;
+}
+
+.section-title:hover .line {
+  width: 80px;
+  background-color: white;
+}
+
+.mt-16
+{
+  margin-top: 4rem;
 }
