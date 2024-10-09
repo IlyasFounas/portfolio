@@ -1,9 +1,9 @@
 <script setup>
-import Crypto from './Crypto.vue'
+import XP from './Crypto.vue'
 </script>
 
 <template>
-    <div class="d-flex justify-content-center"> <!--align-items-center-->
+    <div class="d-flex justify-content-center glob"> <!--align-items-center-->
         <div id="parent_fixed">
             <div id="div_fixed">
                 <p class="text-white title"><strong>Ilyâs Founas</strong></p>
@@ -24,6 +24,17 @@ import Crypto from './Crypto.vue'
                         <span class="line"></span>
                         <span class="title ul"><a href="#">PROJECTS</a></span>
                     </div>
+                </div>
+                <div class="mt-128">
+                    <a href="https://github.com/IlyasFounas" target="_blank" class="mr-16">
+                        <img src="./../assets/github.png" class="logo" width="30px">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ilyâs-founas-03a5b3257/"  target="_blank" class="mr-16">
+                        <img src="./../assets/in.png" class="logo">
+                    </a>
+                    <a href="https://www.instagram.com/ilyasfns/" target="_blank">
+                        <img src="./../assets/insta.png" class="logo">
+                    </a>
                 </div>
             </div>
         </div>
@@ -55,9 +66,22 @@ import Crypto from './Crypto.vue'
                     <br>improving my skills in <strong class="text-white">Vue.js</strong> or diving into game development with <strong class="text-white">Godot</strong>.
                 </p>
             </div>
-            <Crypto />
-            <Crypto />
-            <Crypto />
+            <XP />
         </div>
     </div>
 </template>
+
+<style scoped>
+
+.glob
+{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.logo:hover
+{
+    scale: 1.2;
+}
+
+</style>

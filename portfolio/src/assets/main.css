@@ -1,8 +1,3 @@
-main
-{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
 
 a
 {
@@ -41,7 +36,7 @@ a
 }
 .ul
 {
-  font-size: 13px !important;
+  font-size: 12px !important;
   font-weight: bold;
 }
 
@@ -64,7 +59,6 @@ a
 .title {
   font-size: 16px;
   letter-spacing: 1.5px;
-  text-transform: uppercase;
 }
 
 .section-title:hover a {
@@ -81,7 +75,23 @@ a
   margin-top: 4rem;
 }
 
+.mr-16
+{
+  margin-right: 4rem;
+}
+
+.mt-128
+{
+  margin-top: 20rem;
+}
+
 .div_global
 {
   height: 500px;
+}
+
+body
+{
+  background-color: #0F172A !important;
+  background-image: none !important;
 }

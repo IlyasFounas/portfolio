@@ -22,10 +22,8 @@ document.addEventListener('pointermove', (e) => {
 </script>
 
 <template>
-  <main>
     <div id="cursor-bg" ref="cursorBg" class="cursor-bg"></div>
     <Infos />
-  </main>
 </template>
 
 <style scoped>
@@ -38,6 +36,8 @@ document.addEventListener('pointermove', (e) => {
 	background: #45B0DF;
 	border-radius: 50%;
 	filter: blur(100px);
+  pointer-events: none;
+  z-index: 9999;
 }
 
 </style>
