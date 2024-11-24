@@ -1,5 +1,6 @@
 <script setup>
 import XP from './Crypto.vue'
+import Project from './Projects.vue'
 </script>
 
 <template>
@@ -7,11 +8,13 @@ import XP from './Crypto.vue'
         <div id="parent_fixed">
             <div id="div_fixed">
                 <p class="text-white title"><strong>Ilyâs Founas</strong></p>
-                <p class="text-white title_bis">Junior Backend Developer</p>
+                <p class="text-white title_bis">
+                    Student at 42 - Lyon France</p>
                 <p class="text-white-50">
-                    I build applications with passion and precision !
+                    I build applications with passion and precision, 
+                    <br>thriving in projects where creativity meets innovation!
                 </p>
-                <div class="text-white mt-16">
+                <div class="text-white mt-16">  
                     <div class="section-title">
                         <span class="line"></span>
                         <span class="title ul"><a href="#">ABOUT</a></span>
@@ -32,9 +35,9 @@ import XP from './Crypto.vue'
                     <a href="https://www.linkedin.com/in/ilyâs-founas-03a5b3257/"  target="_blank" class="mr-16">
                         <img src="./../assets/in.png" class="logo">
                     </a>
-                    <a href="https://www.instagram.com/ilyasfns/" target="_blank">
+                    <!--<a href="https://www.instagram.com/ilyasfns/" target="_blank">
                         <img src="./../assets/insta.png" class="logo">
-                    </a>
+                    </a>-->
                 </div>
             </div>
         </div>
@@ -55,7 +58,7 @@ import XP from './Crypto.vue'
 
                 <p>
                     These days, I spend most of my time working on personal projects, including a <strong class="text-white">3D game</strong> and a 
-                    <br>culinary creation website built with Symfony.I particularly enjoy the challenge of developing
+                    <br> <strong class="text-white">culinary creation website</strong> built with <strong class="text-white">Symfony</strong>. I particularly enjoy the challenge of developing
                     <br>applications that are both functional and visually appealing, combining design and code into 
                     <br>seamless experiences.
                 </p>
@@ -67,6 +70,7 @@ import XP from './Crypto.vue'
                 </p>
             </div>
             <XP />
+            <Project />
         </div>
     </div>
 </template>

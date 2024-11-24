@@ -2,30 +2,33 @@
 </script>
 
 <template>
-  <main class="mt-16 " id="experience">
+  <main class="mt-16 para" id="experience">
     <div class="d-flex main_div">
-      <div>
+      <div class="div_date">
         <p class="date">
-          OCTOBER - PRESENT
+          NOVEMBER - ? ? ?
+          <br>(2024)
         </p>
       </div>
-      <div>
-        <p class="text-white title_xp">Actively seeking a Back-end Developer position</p>
+      <div class="div_text_xp">
+        <p class="text-white title_xp">Student - 42 School Lyon Auvergne-Rhône-Alpes</p>
         <p>
-          I am looking for a job to gain as much experience as
-          <br>possible in web development and teamwork. While waiting
-          <br>to work with a team. I practice various modern technologies.
+          I'm starting a new chapter as a student at 42 Lyon, eager to dive
+          <br>deep into new programming languages like C and C++, and embrace 
+          <br>the school's unique mindset. I'll be sharing my progress along 
+          <br>the way—stay tuned!
         </p>
       </div>
     </div>
 
     <div class="d-flex main_div">
-      <div>
+      <div class="div_date">
         <p class="date">
           SEPTEMBER - OCTOBER
+          <br>(2024)
         </p>
       </div>
-      <div>
+      <div class="div_text_xp">
         <p class="text-white title_xp">Participant - 42 School Piscine</p>
         <p>
           <br>Immersed in a 26-day intensive environment, the 42 Piscine was 
@@ -41,12 +44,12 @@
     </div>
 
     <div class="d-flex main_div">
-      <div>
+      <div class="div_date">
         <p class="date">
           2023 - 2024
         </p>
       </div>
-      <div>
+      <div class="div_text_xp">
         <p class="text-white title_xp">Bachelor's Degree in Computer Science (Year 3) <br> And Apprenticeship at Acces Diffusion</p>
         <p>
           <br>During my third year of university, I had the opportunity
@@ -62,12 +65,12 @@
     </div>
 
     <div class="d-flex main_div">
-      <div>
+      <div class="div_date">
         <p class="date">
           2022 - 2023
         </p>
       </div>
-      <div>
+      <div class="div_text_xp">
         <p class="text-white title_xp">Bachelor's Degree in Computer Science (Year 2) <br> And Internship at Acces Diffusion</p>
         <p>
           <br>During my second year of university, I had the chance to apply 
@@ -79,14 +82,13 @@
         </p>
       </div>
     </div>
-
     <div class="d-flex main_div">
-      <div>
+      <div class="div_date">
         <p class="date">
           2021 - 2022
         </p>
       </div>
-      <div>
+      <div class="div_text_xp">
         <p class="text-white title_xp">Bachelor's Degree in Computer Science (Year 1)</p>
         <p>
           <br>In my first year, I gained a deep understanding of programming concepts and 
@@ -95,7 +97,7 @@
           <br>technical skills and setting the stage for more advanced development 
           <br>work in the future.
         </p>
-      </div>
+      </div> 
     </div>
    </main>
 </template>
@@ -112,10 +114,11 @@ main
 }
 
 .main_div {
+  margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  justify-content: space-evenly;
   transition: background-color 0.3s, border-color 0.3s, border-top 0.3s;
+  border-radius: 20px;
   z-index: 1;
   position: relative;
 }
@@ -123,14 +126,26 @@ main
 .main_div:hover
 {
     background-color: #192439;/*#172035;*/
-    border-radius: 20px;
+    
     border-color: #3a435b !important;
     border-top: solid 0.5px;
 }
 
 .date
 {
+  margin-left: 10px;
+  margin-right: 40px;
   font-size: 13px;
+}
+
+.div_date
+{
+  position: absolute;
+}
+
+.div_text_xp
+{
+  margin-left: 190px;
 }
 
 </style>
