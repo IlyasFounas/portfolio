@@ -3,15 +3,34 @@
 
 <template>
   <main class="mt-16 para" id="experience">
+    <div class="d-flex main_div" id="div_trading_bot">
+      <div class="div_date">
+      </div>
+      <div class="div_text_xp">
+        <p class="text-white title_xp"></p>
+        <p>
+          <h2 id="title_trading_bot">
+            You are a C and Front-end developer ,
+          </h2>
+          <h2 id="title_trading_bot">
+            You want to work in the crypto ?
+          <!-- <img src="./../assets/Solana.png" id="sol">
+          <img src="./../assets/Bitcoin.png" id="btc"> -->
+          </h2>
+          <button id="btn_trading_bot">Join the project 🚀📈</button>
+        </p>
+      </div>
+    </div>
+
     <div class="d-flex main_div">
       <div class="div_date">
         <p class="date">
-          NOVEMBER - ? ? ?
-          <br>(2024)
+          NOVEMBER
+          <br>(2024 - 2025)
         </p>
       </div>
       <div class="div_text_xp">
-        <p class="text-white title_xp">Student - 42 School Lyon Auvergne-Rhône-Alpes</p>
+        <p class="text-white title_xp">Student - 42 Lyon France</p>
         <p>
           I'm starting a new chapter as a student at 42 Lyon, eager to dive
           <br>deep into new programming languages like C and C++, and embrace 
@@ -103,6 +122,31 @@
 </template>
 
 <style scoped>
+#sol {
+  width: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#btc {
+  width: 5%;
+}
+#btn_trading_bot
+{
+  background-color: black !important;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+#div_trading_bot 
+{
+  background-color: rgb(213, 234, 95) !important;
+}
+#title_trading_bot 
+{
+  color: rgb(0, 0, 0) !important;
+  font-weight: bold;
+}
 .title_xp
 {
   font-size: 17px;

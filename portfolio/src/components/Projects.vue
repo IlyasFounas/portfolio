@@ -2,7 +2,24 @@
 </script>
 
 <template>
-  <main class="mt-16 para" id="experience">
+  <main class="mt-16 para" id="projects">
+    <div class="d-flex main_div">
+      <div class="div_date">
+        <p class="date"><img src="./../assets/AD.PNG" id="AccesDiffusion"></p>
+      </div>
+      <div class="div_text_xp">
+        <p class="text-white title_xp">AD gestion tickets</p>
+        <p>
+          AD Gestion Tickets is a professional project I worked on during my 
+          <br>apprenticeship at Accès Diffusion. My role focused on development
+          <br>and testing, though the project, requiring 1.5 years of work, 
+          <br>was not fully completed during my time there. The site is designed to
+          <br>allow Accès Diffusion's clients to create tickets for products and software
+          <br>distributed by the company. This experience was invaluable, improving my 
+          <br>technical and communication skills within a professional IT team.  
+        </p>
+      </div>
+    </div>
     <div class="d-flex main_div">
       <div class="div_date">
         <p class="date"><img src="./../assets/symrecipe.PNG" id="symrecipe"></p>
@@ -83,7 +100,7 @@ main
 #chat
 {
   margin-left: 10%;
-  width: 20%;
+  width: 22%;
   border-radius: 10%;
 }
 
@@ -92,6 +109,18 @@ main
 {
   width: 20%;
   height: 30%;
+  border-radius: 10%;
+}
+#AccesDiffusion
+{
+  width: 20%;
+  height: 30%;
+  border-radius: 10%;
+}
+
+#accesdiffusion
+{
+  width: 30%;
   border-radius: 10%;
 }
 
