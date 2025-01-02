@@ -5,6 +5,23 @@
   <main class="mt-16 para" id="projects">
     <div class="d-flex main_div">
       <div class="div_date">
+        <p class="date"><img src="./../assets/text.png" id="AccesDiffusion"></p>
+      </div>
+      <div class="div_text_xp">
+        <p class="text-white title_xp">Get next line</p>
+        <p>
+          Get Next Line is a typical 42 project at the beginning of the cursus. It involves 
+          <br>creating a function that allows reading from a file in a specific way. This project 
+          <br>helped me enhance my skills in C, particularly in handling files and managing memory.  
+        </p>
+        <div class="d-flex">
+          <div class="badge_xp">C</div>
+          <div class="badge_xp">Valgrind</div>
+          <div class="badge_xp">gdb</div>
+        </div>
+      </div>
+    </div><div class="d-flex main_div">
+      <div class="div_date">
         <p class="date"><img src="./../assets/AD.PNG" id="AccesDiffusion"></p>
       </div>
       <div class="div_text_xp">
@@ -18,6 +35,11 @@
           <br>distributed by the company. This experience was invaluable, improving my 
           <br>technical and communication skills within a professional IT team.  
         </p>
+        <div class="d-flex">
+          <div class="badge_xp">PHP</div>
+          <div class="badge_xp">Javascript</div>
+          <div class="badge_xp">MySQL</div>
+        </div>
       </div>
     </div>
     <div class="d-flex main_div">
@@ -32,6 +54,11 @@
           <br>to explore and master some of Symfony's most essential features.  
           <br>It was a rewarding experience that strengthened my web development skills!  
         </p>
+        <div class="d-flex">
+          <div class="badge_xp">Symfony</div>
+          <div class="badge_xp">Bootstrap</div>
+          <div class="badge_xp">MySQL</div>
+        </div>
       </div>
     </div>
     <div class="d-flex main_div">
@@ -46,6 +73,11 @@
             <br>the Flutter ecosystem and use Google Firebase to manage the database.  
             <br>It was an incredible opportunity to learn and apply new technologies in a practical setting!  
           </p>
+        <div class="d-flex">
+          <div class="badge_xp">Flutter</div>
+          <div class="badge_xp">Firebase</div>
+          <div class="badge_xp">Dart</div>
+        </div>
       </div>
     </div>
    </main>

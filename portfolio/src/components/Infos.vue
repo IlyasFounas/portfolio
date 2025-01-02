@@ -13,10 +13,10 @@ import Project from './Projects.vue'
                 <p class="text-white title_bis">
                     Student at 42 - Lyon France</p>
                 <p class="text-white-50">
-                    I build applications with passion and precision, 
+                    I build applications with passion and precision,
                     <br>thriving in projects where creativity meets innovation!
                 </p>
-                <div class="text-white mt-16">  
+                <div class="text-white mt-16">
                     <div class="section-title">
                         <span class="line"></span>
                         <span class="title ul"><a href="#" id="link-about">ABOUT</a></span>
@@ -30,17 +30,26 @@ import Project from './Projects.vue'
                         <span class="title ul"><a href="#projects" id="link-projects">PROJECTS</a></span>
                     </div>
                 </div>
+                <div class="d-flex main_div">
+                    <div class="div_text_xp" id="div_trading_bot">
+                        <div>
+                            <h4 id="title_trading_bot">
+                                Do you want me to work
+                                <br> in your team ? 🤝📈
+                            </h4>
+                            <div id="trading_links">
+                                <a href="https://github.com/IlyasFounas" target="_blank" class="mr-16">
+                                    <img src="./../assets/github.png" class="logo" width="30px">
+                                </a>
+                                <a href="https://www.linkedin.com/in/ilyâs-founas-03a5b3257/" target="_blank">
+                                    <img src="./../assets/in.png" class="logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="mt-128">
-                    <a href="https://github.com/IlyasFounas" target="_blank" class="mr-16">
-                        <img src="./../assets/github.png" class="logo" width="30px">
-                    </a>
-                    <a href="https://www.linkedin.com/in/ilyâs-founas-03a5b3257/"  target="_blank" class="mr-16">
-                        <img src="./../assets/in.png" class="logo">
-                    </a>
-                    <!--<a href="https://www.instagram.com/ilyasfns/" target="_blank">
-                        <img src="./../assets/insta.png" class="logo">
-                    </a>-->
                 </div>
             </div>
         </div>
@@ -48,28 +57,28 @@ import Project from './Projects.vue'
         <div class="div_global">
             <div class="text-white-50 para" id="about">
                 <p>
-                    Back in university, while studying <strong class="text-white">Computer Science at Valence in the Drôme</strong>, I found myself drawn 
-                    <br>deeper into the world of <strong class="text-white">web development.</strong> What started as small coding experiments quickly
-                    <br>evolved into something more serious, and soon, I was fully immersed in building web applications.
+                    Back in university, while studying <strong class="text-white">Computer Science at Valence in the
+                        Drôme</strong>, I found myself drawn
+                    <br>deeper into the world of <strong class="text-white">web development.</strong> What started as
+                    small coding experiments quickly
+                    <br>evolved into something more serious, and soon, I was fully immersed in building web
+                    applications.
                 </p>
 
                 <p>
-                    Since then, I've had the opportunity to work as a full-stack web developer, both during a three-
-                    <br>month internship and a <strong class="text-white">year-long apprenticeship</strong>. These experiences allowed me to sharpen my skills
-                    <br>and gain hands-on experience in building robust, dynamic applications.
+                    Joining <strong class="text-white">42 Lyon</strong> marked a turning point in my journey as a
+                    developer. The unique, self-paced
+                    <br>learning environment <strong class="text-white">pushed me out of my comfort zone</strong>, challenging me to solve problems
+                    <br> independently while <strong class="text-white">collaborating</strong> with other <strong class="text-white">passionate programmers</strong>.
+                    <br> It wasn’t just about learning to code but embracing a mindset of <strong class="text-white">innovation and adaptability</strong>.
                 </p>
 
-                <p>
-                    These days, I spend most of my time working on personal projects, including a <strong class="text-white">3D game</strong> and a 
-                    <br> <strong class="text-white">culinary creation website</strong> built with <strong class="text-white">Symfony</strong>. I particularly enjoy the challenge of developing
-                    <br>applications that are both functional and visually appealing, combining design and code into 
-                    <br>seamless experiences.
-                </p>
 
                 <p>
-                    When I’m not coding, you can find me <strong class="text-white">hiking</strong>, <strong class="text-white">working out</strong> at the gym, or experimenting with new 
-                    <br><strong class="text-white">development ideas</strong>. I’m always on the lookout for new challenges and technologies, whether it’s
-                    <br>improving my skills in <strong class="text-white">Vue.js</strong> or diving into game development with <strong class="text-white">Godot</strong>.
+                    When I’m not coding, you can find me <strong class="text-white">hiking</strong>, <strong
+                        class="text-white">working out</strong> at the gym, or experimenting with new
+                    <br><strong class="text-white">development ideas</strong>. I’m always on the lookout for new
+                    challenges and technologies.
                 </p>
             </div>
             <XP />
@@ -79,19 +88,94 @@ import Project from './Projects.vue'
 </template>
 
 <style scoped>
-.picture 
-{
+#trading_links {
+    margin-top: 20px;
+}
+
+#btn_trading_bot {
+    background-color: black !important;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+#div_trading_bot {
+    text-align: center;
+    margin-top: 7rem;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(213, 234, 95) !important;
+}
+
+#title_trading_bot {
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
+}
+
+.picture {
+    border-radius: 10px;
     width: 25%;
 }
-.glob
-{
+
+.glob {
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
 
-.logo:hover
-{
-    scale: 1.2;
+.logo {
+    background-color: black;
+    border-radius: 10px;
+    ;
 }
 
+.logo:hover {
+    scale: 1.3;
+}
+
+/* Réglages pour les écrans moyens */
+@media screen and (max-width: 768px) {
+    .picture {
+        width: 50%;
+    }
+    #div_trading_bot {
+        margin-top: 4rem;
+        padding: 5px;
+    }
+    #title_trading_bot {
+        font-size: 1.2rem;
+    }
+    .glob {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    #btn_trading_bot {
+        font-size: 0.9rem;
+    }
+}
+
+/* Réglages pour les petits écrans */
+@media screen and (max-width: 480px) {
+    .picture {
+        width: 70%;
+    }
+    .glob {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    #title_trading_bot {
+        font-size: 1rem;
+    }
+    #btn_trading_bot {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    .logo {
+        width: 20px;
+        height: 20px;
+    }
+    #trading_links {
+        margin-top: 10px;
+    }
+}
 </style>

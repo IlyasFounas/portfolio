@@ -5,6 +5,14 @@ a
   color: #a0a0a0;
 }
 
+.badge_xp{
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  background-color: #183656;
+  margin-right: 10px;
+}
+
 #solana
 {
   margin-left: 100px;
@@ -12,7 +20,8 @@ a
 
 #parent_fixed
 {
-  width: 350px;
+  margin-left: 150px;
+  width: 400px;
 }
 
 #div_fixed
@@ -92,7 +101,7 @@ a
 
 .mt-128
 {
-  margin-top: 20rem;
+  margin-top: 4rem;
 }
 
 .div_global
@@ -104,10 +113,4 @@ body
 {
   background-color: #0F172A !important;
   background-image: none !important;
-}
-
-:modal {
-  border: 5px solid red;
-  background-color: yellow;
-  box-shadow: 3px 3px 10px rgba(0 0 0 / 0.5);
 }
